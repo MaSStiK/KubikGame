@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: #d8d8d8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .window {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kubiks {
+            margin-top: 15%;
+            width: 292px;
+            user-select: none;
+        }
+
+        .kubik {
+            width: 120px;
+            height: 96px;
+            background-color: black;
+            margin: 12px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubicGame</title>
+</head>
+<body>
+    <div class="window">
+        <i></i>
+        <div id="kubiks" class="kubiks"></div>
+        <i></i>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
